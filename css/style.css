@@ -121,7 +121,7 @@ font-size:16px;
 
 /*Products_start*/
 
-.products-list { background: #fff; box-shadow: 0 0 29px rgba(100, 100, 100, 0.1); }
+.products-list { cursor: pointer; background: #fff; box-shadow: 0 0 29px rgba(100, 100, 100, 0.1); }
 .products-list .text-holder { padding: 24px 15px; display: flex; justify-content: space-between; font-size: 24px; }
 .price-text { font-weight: bold; font-size: 28px; color: #bc1d3f; display: flex; align-items: center; }
 .fas.fa-pound-sign { font-size: 23px; margin-right: 3px; }
@@ -135,7 +135,7 @@ font-size:16px;
 
 /*categories-start*/
 .categories-sec .products-list .text-holder h4 { width: 100%; text-align: center; font-size: 28px; }
-.categories-sec .products-list { margin-bottom: 30px; }
+.categories-sec .products-list { margin-bottom: 30px;  cursor: pointer;}
 /*categories-end*/
 
 /*Sample-Pack-Start*/
@@ -415,7 +415,7 @@ font-weight: bold;
     font-size: 48px;
     color: #c3102f;     margin-right:15px;
 }
-}
+
 .error p{font-size: 19px; font-family: 'Roboto Condensed', sans-serif;
 line-height: 28px;}
 .error-inner { margin: auto;
